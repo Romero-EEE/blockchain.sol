@@ -1,0 +1,22 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.0;
+
+contract Counter {
+   uint public count = 0;  
+   
+   function increaseCount () public {
+
+       count++;
+   }
+
+    function decreaseCount () public {
+        count --;
+
+    }
+    function multiplyCount () public {
+
+        uint256 (count) *2 ;
+    }
+   }
+ 
